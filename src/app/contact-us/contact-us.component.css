@@ -1,0 +1,62 @@
+.bacgroundimg {
+    width: 100%;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/teamImages/heroteam.jpeg");
+    /* Background Image */
+}
+
+.hero h2 {
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 34vh;
+    left: 45vw;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 65px;
+    line-height: 1.5;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container-contact {
+    border-radius: 0.5rem;
+    background-color: #f2f2f2;
+    padding: 2rem;
+}
+
+
+/* .container-fluid {
+    margin-left: 1vh;
+} */
+
+.card-header {
+    font-weight: bolder;
+}

@@ -1,0 +1,48 @@
+<div class="hero row d-flex justify-content-center">
+    <div class="col-7 left">
+        <div class="leftContents header-box">
+            <a href="https://codefactory.wien/en/home-en/">
+                <h1 class="fw-bold">Code Factory</h1>
+            </a>
+            <p class="font-monospace">We create developers</p>
+        </div>
+    </div>
+    <div class="col-4 right row d-flex">
+        <div class="upside shadow">
+            <a routerLink="videos">
+                <h2 class="fw-bold">Video</h2>
+            </a>
+        </div>
+        <div class="downside shadow">
+            <a routerLink="team">
+                <h2 class="fw-bold">Team</h2>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container font-monospace"><a routerLink="courses">
+        <h4>Our courses</h4>
+    </a>
+
+    <div class="row row-cols-1 row-cols-md-32 row-cols-sm-1 row-cols-lg-3 g-4">
+
+
+        <div *ngFor="let course of courses; index as coursesId" class="col">
+            <div class="card border-0 shadow">
+                <img src="/assets/icon/{{course.icon}}" class="card-img-top" alt="icon">
+                <div class="card-body">
+                    <h3 class="card-title">{{course.name}}</h3>
+                    <button class="btn btn-outline-primary" routerLink="/courses/{{coursesId}}">Read More</button>
+                    <span class="badge bg-danger">{{course.level}}</span>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</div>

@@ -1,0 +1,69 @@
+.team-image {
+    position: relative;
+    z-index: 1;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.team-image::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.team-info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.single-team-box:hover .team-image::before {
+    opacity: .8;
+    visibility: visible;
+}
+
+.single-team-box .team-image img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.single-team-box:hover .team-image img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.bacgroundimg {
+    width: 100%;
+    height: 40vw;
+    background-image: url('../../assets/teamImages/heroteam.jpeg');
+    background-repeat: no-repeat;
+}
+
+.done {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    height: 35vw;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 2vw;
+}
+span {
+    font-size:1vw;
+}

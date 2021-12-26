@@ -1,0 +1,133 @@
+.hero {
+    width: 100vw;
+    height: 60vw;
+    margin-top: 7vh;
+    margin-bottom: 5vw;
+}
+
+
+.left {
+    background: radial-gradient(#5b7fad, #6d5ca1);    
+    height: 43vw;
+    width: 43vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    position: relative;
+}
+
+.left {
+    background-color: rgb(253, 251, 255, 0);
+}
+
+
+.left h1 {
+    position: absolute;
+    top: 4vw;
+    left: -9vw;
+    font-size: 12vw;
+    text-shadow: 5px 5px 6px rgb(230, 104, 131);
+    transition: width 1s, height 1s, transform 0.7s;
+    color: white;
+}
+
+.left h1:hover {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+
+
+
+.left p {
+    position: absolute;
+    top: 34vw;
+    left: -5;
+    font-size: 2vw;
+    text-shadow: 2px 2px 2px rgb(255, 221, 228);
+    color:white;
+} 
+
+.right {
+    margin-top: 17vw;
+    width: 25vw;
+    height: 40vw;
+}
+
+.upside, .downside {
+    border-radius: 0px;
+background: linear-gradient(145deg, #ffffff, #e6e6e6);
+box-shadow:  21px 21px 41px #c7c7c7,
+             -21px -21px 41px #ffffff;
+    position: relative;
+}
+
+.upside h2, .downside h2 {
+    position: absolute;
+    top: 5vw;
+    left: 8vw;
+    font-size: 8vw;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(218, 124, 255);
+    transition: width 1s, height 1s, transform 0.7s;
+}
+
+.upside h2:hover, .downside h2:hover {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+
+
+.container h4 {
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+ .container a {
+     text-decoration: none;
+     color:black;
+ }
+
+ 
+.card img {
+    width: 4vw;
+    min-width: 40px;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    margin-left: 3vw;
+}
+
+.card, .result {
+    height: 23vw;
+    min-height: 250px;
+    position: relative;
+    margin: 1vw;
+    transition: width 1s, height 1s, transform 0.7s;
+}
+
+.card:hover {
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    background-color:rgb(245, 245, 245);
+}
+
+/* .card:hover + .result {
+    
+} */
+
+
+.card h3 {
+    text-align: center;
+    padding-bottom: 4vw;
+    text-shadow: 2px 2px 2px rgb(180, 173, 173);
+}
+
+.card button {
+    position: absolute;
+    left: 1vw;
+    bottom: 1vw;
+    size: 10%;
+}
+
+.badge {
+    position: absolute;
+    right: 1vw;
+    bottom: 1.5vw;
+    size: 10%;
+}

@@ -1,0 +1,88 @@
+<section class="footer-subscribe-wrapper font-monospace mt-5">
+
+    <!-- End Subscribe Area -->
+    <!-- Start Footer Area -->
+    <div class="footer-area ptb-100 pt-4 mt-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 pb-5">
+                    <div class="single-footer-widget ">
+                        <div class="footer-heading ">
+                            <h3>About Us</h3>
+                        </div>
+                        <p>Founded in 2016, CodeFactory Wien follows the concept of programming boot camps of Anglo-American countries. Our goal is to provide time-efficient and very practice-oriented training with the aim of the fastest possible career
+                            entry as a junior developer. Our courses are tailored to newcomers, people who want to change careers in the second or third educational path as well as people who are interested in an application-oriented education.
+                        </p>
+                        <ul class="footer-social ">
+                            <li>
+                                <a href="https://www.facebook.com/CodeFactoryVienna/ "> <i class="fa fa-facebook-f "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/accounts/login/ "> <i class="fa fa-instagram "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/codefactoryvie "> <i class="fa fa-twitter-square "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCJE5xsfz-bLmVb5emobgOkw "> <i class="fa fa-youtube-play "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/codefactory-vienna "> <i class="fa fa-linkedin "></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 pb-5">
+                    <div class="single-footer-widget ">
+                        <div class="footer-heading ">
+                            <h3>Our Courses</h3>
+                        </div>
+                        <ul class="footer-quick-links ">
+                            <div *ngFor="let course of courses; index as coursesId">
+                                <li><a routerLink="/courses/{{coursesId}}">{{course.name}}</a></li>
+        
+                </div>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 pb-5 ">
+                    <div class="single-footer-widget ">
+                        <div class="footer-heading ">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul class="footer-quick-links ">
+                            <li><a routerLink="team">About Us</a></li>
+                            <li><a routerLink="contactus">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 pb-5 ">
+                    <div class="single-footer-widget ">
+                        <div class="footer-heading ">
+                            <h3>Contact Info</h3>
+                        </div>
+                        <div class="footer-info-contact "> <i class="fa fa-phone "></i>
+                            <h3>Phone</h3>
+                            <span><a href="tel:0802235678 ">0660 6673655</a></span>
+                        </div>
+                        <div class="footer-info-contact "> <i class="fa fa-envelope "></i>
+                            <h3>Email</h3>
+                            <span><a href="mailto:office@codefactory.wien ">office@codefactory.wien</a></span>
+                        </div>
+                        <div class="footer-info-contact "> <i class="fa fa-map-marker "></i>
+                            <h3>Address</h3>
+                            <span>Kettenbrückengasse 23/2/12, 1050 Vienna, Austria</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Section -->
+</section>

@@ -1,0 +1,25 @@
+<div class="d-flex justify-content-center align-items-center bacgroundimg">
+
+    <h1 class="text-light font-monospace">Team</h1>
+</div>
+<div class="d-flex justify-content-center align-items-center mt-5 font-monospace">
+    <h3>Expert Team</h3>
+</div>
+<!-- team cards -->
+<div class="d-flex justify-content-center flex-wrap font-monospace">
+    <div *ngFor="let team of team">
+        <div class="card border-0 cardcol  m-3 mb-5" style="width: 18rem; ">
+            <img id="teamimages" src="{{team.img}}" class="card-img-top" alt="team member image">
+            <div class="card-body col">
+                <h3 class="card-text font-monospace mt-3 mb-3">
+                    {{team.name}}
+
+                </h3>
+                <p class="col card-text text-align-center text-primary txt ">
+                    {{team.position}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- team cards end  -->

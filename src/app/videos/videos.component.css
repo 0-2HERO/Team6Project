@@ -1,0 +1,6 @@
+.bacgroundimg {
+    width: 100%;
+    height: 40vw;
+    background-image: url('../../assets/teamImages/heroteam.jpeg');
+    background-repeat: no-repeat;
+}

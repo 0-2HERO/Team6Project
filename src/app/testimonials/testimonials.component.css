@@ -1,0 +1,29 @@
+.testimg {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: 0.10rem solid;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+}
+
+.cardcol {
+    background: radial-gradient(#60efbc, #58d5c9);
+}
+
+
+/* stars */
+
+.checked {
+    color: orange;
+}
+
+.bacgroundimg {
+    width: 100%;
+    height: 40vw;
+    background-image: url('../../assets/teamImages/heroteam.jpeg');
+    background-repeat: no-repeat;
+}
+
+.txt {
+    color: #f588d8;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    background: radial-gradient(#76b2fe, #b69efe);    
+    opacity: 0.9;
+    height: 10vh;
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+ul li a:hover {
+    color: blue;
+    opacity: 0.8;
+}
+
+.logo img {
+    width: 8vw;
+}
+
+.collapse a {
+   color:black;
+}
+
+.home  {
+    padding-left: 18vw;
+}
